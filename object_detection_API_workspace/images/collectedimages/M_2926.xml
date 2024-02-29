@@ -1,0 +1,26 @@
+<annotation>
+	<folder>collectedimages</folder>
+	<filename>M_2926.png</filename>
+	<path>C:\Users\oleel\Code-master-folder\Other\pythonProject5\RealTimeObjectDetection\Tensorflow\workspace\images\collectedimages\M_2926.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>256</width>
+		<height>256</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>M</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>148</xmin>
+			<ymin>101</ymin>
+			<xmax>238</xmax>
+			<ymax>202</ymax>
+		</bndbox>
+	</object>
+</annotation>

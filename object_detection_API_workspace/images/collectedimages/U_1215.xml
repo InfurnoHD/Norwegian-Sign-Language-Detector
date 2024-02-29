@@ -1,0 +1,26 @@
+<annotation>
+	<folder>collectedimages</folder>
+	<filename>U_1215.png</filename>
+	<path>C:\Users\oleel\Code-master-folder\Other\pythonProject5\RealTimeObjectDetection\Tensorflow\workspace\images\collectedimages\U_1215.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>256</width>
+		<height>256</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>U</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>44</ymin>
+			<xmax>220</xmax>
+			<ymax>191</ymax>
+		</bndbox>
+	</object>
+</annotation>

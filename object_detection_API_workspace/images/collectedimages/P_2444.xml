@@ -1,0 +1,26 @@
+<annotation>
+	<folder>collectedimages</folder>
+	<filename>P_2444.png</filename>
+	<path>C:\Users\oleel\Code-master-folder\Other\pythonProject5\RealTimeObjectDetection\Tensorflow\workspace\images\collectedimages\P_2444.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>256</width>
+		<height>256</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>P</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>22</xmin>
+			<ymin>62</ymin>
+			<xmax>173</xmax>
+			<ymax>221</ymax>
+		</bndbox>
+	</object>
+</annotation>

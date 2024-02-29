@@ -1,0 +1,26 @@
+<annotation>
+	<folder>collectedimages</folder>
+	<filename>A_2055.png</filename>
+	<path>C:\Users\oleel\Code-master-folder\Other\pythonProject5\RealTimeObjectDetection\Tensorflow\workspace\images\collectedimages\A_2055.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>256</width>
+		<height>256</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>A</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>35</xmin>
+			<ymin>39</ymin>
+			<xmax>206</xmax>
+			<ymax>177</ymax>
+		</bndbox>
+	</object>
+</annotation>

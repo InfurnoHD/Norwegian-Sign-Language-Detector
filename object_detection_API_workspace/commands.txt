@@ -1,0 +1,27 @@
+python model_main_tf2.py --model_dir=models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8 --pipeline_config_path=pre-trained-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8/pipeline.config --num_train_steps=1000
+
+
+python .\exporter_main_v2.py --input_type image_tensor --pipeline_config_path .\pre-trained-models\ssd_resnet50_v1_fpn_640x640_coco17_tpu-8\pipeline.config --trained_checkpoint_dir .\models\ssd_resnet50_v1_fpn_640x640_coco17_tpu-8\ --output_directory .\exported-models\my_model
+
+
+
+python model_main_tf2.py --model_dir=models2/ssd_mobilenet_v2_fpnlite_640x640_coco17_tpu-8 --pipeline_config_path=pre-trained-models2/ssd_mobilenet_v2_fpnlite_640x640_coco17_tpu-8/pipeline.config --num_train_steps=1000
+
+# other one
+
+
+
+python model_main_tf2.py --model_dir=models/ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8 --pipeline_config_path=pre-trained-models/ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8/pipeline.config --num_train_steps=1000
+
+
+python .\exporter_main_v2.py --input_type image_tensor --pipeline_config_path .\pre-trained-models\ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8\pipeline.config --trained_checkpoint_dir .\models\ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8\ --output_directory .\exported-models\my_model
+
+
+
+
+
+# Create train data:
+python recordgen.py -x C:/Tensorflow/workspace/training_demo/images2/train -l C:/Tensorflow/workspace/training_demo/annotations2/label_map.pbtxt -o C:/Tensorflow/workspace/training_demo/annotations2/train.record
+
+# Create test data:
+python recordgen.py -x C:/Tensorflow/workspace/training_demo/images2/test -l C:/Tensorflow/workspace/training_demo/annotations2/label_map.pbtxt -o C:/Tensorflow/workspace/training_demo/annotations2/test.record

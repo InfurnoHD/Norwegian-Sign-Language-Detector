@@ -1,0 +1,108 @@
+item { 
+	name:'A'
+	id:1
+}
+item { 
+	name:'AE'
+	id:2
+}
+item { 
+	name:'B'
+	id:3
+}
+item { 
+	name:'C'
+	id:4
+}
+item { 
+	name:'D'
+	id:5
+}
+item { 
+	name:'E'
+	id:6
+}
+item { 
+	name:'F'
+	id:7
+}
+item { 
+	name:'G'
+	id:8
+}
+item { 
+	name:'I'
+	id:9
+}
+item { 
+	name:'J'
+	id:10
+}
+item { 
+	name:'K'
+	id:11
+}
+item { 
+	name:'L'
+	id:12
+}
+item { 
+	name:'M'
+	id:13
+}
+item { 
+	name:'N'
+	id:14
+}
+item { 
+	name:'O'
+	id:15
+}
+item { 
+	name:'OE'
+	id:16
+}
+item { 
+	name:'P'
+	id:17
+}
+item { 
+	name:'Q'
+	id:18
+}
+item { 
+	name:'R'
+	id:19
+}
+item { 
+	name:'S'
+	id:20
+}
+item { 
+	name:'T'
+	id:21
+}
+item { 
+	name:'U'
+	id:22
+}
+item { 
+	name:'V'
+	id:23
+}
+item { 
+	name:'W'
+	id:24
+}
+item { 
+	name:'X'
+	id:25
+}
+item { 
+	name:'Y'
+	id:26
+}
+item { 
+	name:'Z'
+	id:27
+}
